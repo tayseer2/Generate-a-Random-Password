@@ -1,0 +1,104 @@
+body {
+  background-color: #232946;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  width: 90%;
+  margin: 12%;
+  max-width: 700px;
+}
+
+h1 {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+span {
+  text-decoration: underline;
+  text-underline-offset: 20px;
+  color: #019f55;
+}
+.display {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.display input {
+  width: 500px;
+  height: 45px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.display i {
+  position: relative;
+  right: 40px;
+  bottom: -2.5px;
+  font-size: 25px;
+  color: #019f55;
+  cursor: pointer;
+}
+button {
+  padding: 16px 26px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background-color: #019f55;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+button i {
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    margin: 35% 8% 8% 8%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  span {
+    font-size: 28px;
+  }
+
+  .display {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .display i {
+    right: 30px;
+    bottom: -2px; 
+    font-size: 20px;
+  }
+
+  .display input {
+    width: 250px; 
+    height: 40px; 
+    font-size: 16px;
+  }
+
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+
+  button i {
+    font-size: 16px;
+  }
+}
